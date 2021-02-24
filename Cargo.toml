@@ -4,6 +4,9 @@ version = "0.1.0"
 authors = ["Rohan Mishra <rohanmishra2017@gmail.com>"]
 edition = "2018"
 
+[lib]
+crate-type = ["cdylib", "rlib"]
+
 [dev-dependencies]
 wasm-bindgen-macro = "0.2.70"
 
